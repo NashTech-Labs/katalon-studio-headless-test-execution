@@ -1,12 +1,14 @@
 # katalon-studio-headless-test-execution
 
 **Introduction-**
+
 In this template,how run the script in the headless browser means without a graphical user interface.
 Headless browsers provide automated control of a web page in an environment similar to popular web browsers, but they are executed via a command-line interface or using network communication. They are particularly useful for testing web pages as they are able to render and understand HTML the same way a browser would, including styling elements such as page layout, colour, font selection and execution of JavaScript and Ajax which are usually not available when using other testing methods.
 About the project-In this template, how to run testcases in headless mode especially gmail login functionality which is support only Javascript. With javascript,can't run the script in headless mode. Browser Headless(Chrome,Firefox) internally run the script.
 
 
 **Technologies-**
+
 **Browser-** Chrome
 **Language-** Java
 **Tool-** Selenium

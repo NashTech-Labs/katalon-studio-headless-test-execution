@@ -36,6 +36,6 @@ In this template, how to run testcases in headless mode especially gmail login f
 - Export project in Eclipse IDE
   Add the Libraries into the Eclipse IDE
 
-# **Headless Browser-** Chrome
+ **Headless Browser-** Chrome
 
 

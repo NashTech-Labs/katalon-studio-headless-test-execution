@@ -10,7 +10,7 @@ Headless browsers provide automated control of a web page in an environment simi
 In this template, how to run testcases in headless mode. We need to define the different arguments- window size,headless,start maximized etc.
     
     
-    </
+    
     ChromeOptions option=new ChromeOptions();
 	option.addArguments("start_maximized");
     option.addArguments("disable-infobars");
@@ -18,7 +18,7 @@ In this template, how to run testcases in headless mode. We need to define the d
     option.addArguments("--headless");
     option.addArguments("--window-size=1920,1080");
     option.addArguments("--window-size=1920,1080","--disable-gpu", "--disable-extensions", "--no-sandbox", "-incognito");
-    />
+    
 
 # **Technologies-**
 
@@ -44,10 +44,10 @@ In this template, how to run testcases in headless mode. We need to define the d
     
 - **Install the jdk-**
 
-</
+
     
 	sudo apt install default-jdk
-/>
+
   	
 - Install  the Selenium jar files
 - Clone the project into your system

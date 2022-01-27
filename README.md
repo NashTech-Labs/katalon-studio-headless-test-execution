@@ -43,10 +43,11 @@ In this template, how to run testcases in headless mode. We need to define the d
    
     
 - **Install the jdk-**
-- </
+
+</
     
 	sudo apt install default-jdk
-  />
+/>
   	
 - Install  the Selenium jar files
 - Clone the project into your system

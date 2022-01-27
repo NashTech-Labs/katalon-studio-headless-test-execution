@@ -56,10 +56,10 @@ In this template, how to run testcases in headless mode. We need to define the d
 - Install the selenium libraies into your system
 
 
-	
-	wget https://selenium-release.storage.googleapis.com/3.141/selenium-server-standalone-3.141.59.jar 
-	mv selenium-server-standalone-3.141.59.jar selenium-server-standalone.jar 
-	
+		
+		wget https://selenium-release.storage.googleapis.com/3.141/selenium-server-standalone-3.141.59.jar 
+		mv selenium-server-standalone-3.141.59.jar selenium-server-standalone.jar 
+		
 	
 
  **Headless Browser-** Chrome

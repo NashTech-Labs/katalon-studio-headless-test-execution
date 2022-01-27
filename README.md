@@ -7,8 +7,18 @@ Headless browsers provide automated control of a web page in an environment simi
 
 # **About the project-**
 
-In this template, how to run testcases in headless mode especially gmail login functionality which is support only Javascript. With javascript,can't run the script in headless mode. Browser Headless(Chrome,Firefox) internally run the script.
-
+In this template, how to run testcases in headless mode. We need to define the arguments- window size,headless,start maximized.
+    
+    
+    </
+    ChromeOptions option=new ChromeOptions();
+	option.addArguments("start_maximized");
+    option.addArguments("disable-infobars");
+    option.addArguments("disable-extensions");
+    option.addArguments("--headless");
+    option.addArguments("--window-size=1920,1080");
+    option.addArguments("--window-size=1920,1080","--disable-gpu", "--disable-extensions", "--no-sandbox", "-incognito");
+    />
 
 # **Technologies-**
 
@@ -25,10 +35,13 @@ In this template, how to run testcases in headless mode especially gmail login f
 # **Use this template to following the steps-**
 - Install the Eclipse-
 - **Install the chrome Driver-**
-    sudo curl -sS -o - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add 
-    sudo bash -c "echo 'deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main' >> /etc/apt/sources.list.d/google-chrome.list" 
-    sudo apt -y update 
-    sudo apt -y install google-chrome-stable 
+
+        sudo curl -sS -o - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add 
+        sudo bash -c "echo 'deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main' >> /etc/apt/sources.list.d/google-chrome.list" 
+        sudo apt -y update 
+        sudo apt -y install google-chrome-stable 
+   
+    
 - **Install the jdk-**
   sudo apt install default-jdk 
 - Install  the Selenium jar files

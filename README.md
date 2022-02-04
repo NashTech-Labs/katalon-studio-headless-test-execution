@@ -56,7 +56,7 @@ at least 1 GB available hard disk space
              sudo apt -y install google-chrome-stable 
 
 
-###### Go to the Katalon website: Katalon products
+## Go to the Katalon website: Katalon products
 
 
 Register a Katalon account with an active email or sign in to your Katalon account if you already have one.
